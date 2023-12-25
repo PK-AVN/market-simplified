@@ -194,13 +194,14 @@ html, body{
 
 .footer-align{
     background-color: #0D0C1D;
-    text-align: center !important;
+    width: 100%;
+    /* text-align: center !important; */
 }
 
 .footer-align a{
     /* text-align: center !important; */
     color: #fff !important;
-    padding: 10px 500px;
+    /* padding: 10px 500px; */
 }
 
 
