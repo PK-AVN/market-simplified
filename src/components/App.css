@@ -1,0 +1,520 @@
+*{
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.5px;
+}
+p{
+    margin-bottom: 0rem !important;
+}
+
+html, body{
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.me-auto .nav-link{
+    color: #FF9900;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 15px;
+}
+
+.me-auto .nav-link:hover{
+    color: #FF9900 !important;
+}
+
+.navbar-nav .show > .nav-link{
+    color: #fff !important;
+}
+
+.navbar-nav .nav-link{
+    color:  #fff!important;
+}
+
+/* .dropdown-menu.show{
+    color: #fff;
+} */
+
+.img-background{
+    width: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.carousel-control-prev-icon{
+    display: none !important;
+}
+
+.carousel-control-next-icon{
+    display: none !important;
+}
+
+.carousel.slide .carousel-indicators button{
+    display: none !important;
+}
+
+.titleImage{
+    display: flex;
+    justify-content: center;
+}
+
+.weon-header{
+    background: #0D0C1D;
+}
+
+.section-odd{
+    background: #002F63;
+    color: #fff;
+}
+
+.section-odd .countries-main-text{
+    padding-top: 3rem;
+    font-size: 42px;
+}
+
+.section-odd .countries-text{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-odd .fanb-main-text{
+    padding-top: 3rem;
+    font-size: 42px;
+}
+
+.section-odd .fandb-sub-text{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.section-odd h2{
+    text-align: center;
+}
+
+.section-even{
+    background: #B4C5E4;
+}
+
+.section-even h2{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 42px;
+}
+
+.section-even .testi-main-text{
+    padding-bottom: 1rem !important;
+}
+
+.section-even .testi-text{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.testi-card.one{
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.testi-card.two{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.testi-card.three{
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.testi-card.four{
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.testi-card.five{
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 250px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.user-dp{
+    height: 3em;
+    color: darkcyan;
+}
+
+.fb-star{
+    color: yellow;
+}
+
+.name-text{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.role-text{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.section-dark{
+    text-align: center;
+    padding-top: 3rem;
+    background: #161B33;
+    color: #fff;
+}
+
+.footer-align{
+    background-color: #0D0C1D;
+    text-align: center !important;
+}
+
+.footer-align a{
+    /* text-align: center !important; */
+    color: #fff !important;
+    padding: 10px 500px;
+}
+
+
+.card-content.card{
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: #FF9900; */
+}  
+
+.flex-container > .fandb-flex {
+    width: 20%;
+    border: 1px solid #fff;
+    margin-top: 3rem;
+    padding: 20px;
+} 
+
+.flex-container > .fandb-flex .heading-text {
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.flex-container > .fandb-flex .content-text {
+    font-size: 13px;
+    font-weight: 400;
+} 
+
+.flex-container >.service-offered-flex{
+    width: 25%;
+    text-align: center;
+    border: 1px solid #fff;
+    padding-top: 15px;
+}
+
+.flex-container >.service-offered-flex p{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.flex-container > .wg-flex{
+    width: 33.333%;
+    text-align: center;
+    color: #fff;
+    height: 235px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.flex-container > .wg-flex .wg-font{
+    margin-top: 4rem;
+    color: #fff;
+    font-size: 2rem;
+    /* margin-bottom: 1rem; */
+
+}
+
+
+.flex-container > .wg-flex.md{
+    border-left: 5px solid #fff;
+    border-right: 5px solid #fff;
+}
+
+.service-img{
+    width: 58%;
+    height: auto;
+}
+
+.card-content.card.widget-grid-card{
+    background: #FF9900;
+}
+
+.contries-card .contries-card-body{
+    height: 300px;
+}
+
+.contries-card .contries-card-body .contries-list-heading{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contries-card .contries-card-body .contries-list-text{
+    color: #000;
+    font-weight: 700;
+}
+
+.contries-list-text .icon{
+    color: red;
+    padding-right: 10px;
+}
+
+.faq-main.accordion{
+    margin: 10px;
+}
+
+.faq-main.accordion .accordion-item{
+    height: auto;
+}
+
+.faq-main.accordion .accordion-item .accordion-header .accordion-button{
+    background: #B4C5E4;
+    color: #fff;
+}
+
+.section-dark.contact{
+    text-align: left;
+    padding-bottom: 3rem;
+}
+/* .faq-main.accordion .accordion-item .accordion-collapse{
+    background: #e6edef;
+} */
+
+.faq-main.accordion .accordion-item .accordion-body{
+    text-align: left;
+}
+
+.contact-icon{
+    text-align: right;
+}
+
+.container-one-main-text{
+    font-size: 84px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.job-main-text{
+    padding-top: 5rem;
+    padding-bottom: 10px;
+    font-size: 42px;
+}
+
+.job-sub-text{
+    font-size: 16px;
+}
+
+.placement-main-text{
+    padding-top: 5rem;
+    padding-bottom: 10px;
+    font-size: 42px;
+}
+
+.placement-sub-text{
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 3rem !important;
+}
+
+.placement-card-main-text{
+    font-size: 21px;
+    font-weight: 700;
+    color: #000;
+}
+
+.placement-card-sub-text{
+    font-size: inherit;
+    font-weight: 400;
+    color: #000;
+}
+
+.placement-card{
+    height: 450px !important;
+}
+
+.section-dark .choose-us-text{
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+.section-dark .choose-us-sub-text{
+    text-align: left;
+    font-size: 0.875rem;
+}
+
+.section-dark .choose-us-col{
+    text-align: right;
+}
+
+.tm-icon{
+    font-size: 48px;
+}
+
+.tm-text{
+    font-size: 20px;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+
+.our-services-card.odd{
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+}
+
+.our-services-card.even{
+    margin-right: 10px;
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+}
+
+.our-services-card .our-services-main-text{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 3rem;
+}
+
+.our-services-card .our-services-text{
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 3rem;
+}
+
+.immi-choose-card.odd{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.immi-choose-card.even{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.immi-choose-card .immi-main-text{
+    color: #000;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.immi-choose-card .immi-sub-text{
+    color: #000;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.section-even.about-us{
+    padding: 25px;
+}
+
+.section-even .about-us-heading{
+    font-size: 43px;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 3rem !important;
+}
+
+.section-even .about-us-main{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+
+.section-even .about-us-sub{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 2rem !important;
+}
+/* .form-field{
+    border-radius: 25px !important;
+}
+.buttonSubmit{
+    width: 100%;
+    background: #e62b21 !important;
+    outline: none !important;
+    border-color: #e62b21 !important;
+    border-radius: 25px !important;
+} */
+/* .signUpLink{
+    color:#e62b21;
+
+}
+.header{
+    padding: 12px;
+    background: #1b7196;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 26px !important;
+}
+.logout{
+    margin-left: auto;
+    color: #fff !important;
+    font-size: 26px;
+}
+.card-title{
+    padding:8px;
+    background: #666666;
+    font-weight: 700;
+    color: #fff;
+}
+.list-bg{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 8px;
+}
+.list-head{
+    font-size: 20px;
+    font-weight: bold;
+}
+.list-desc{
+    font-size: 14px;
+}
+.add{
+    float: right;
+    margin-top: 10px;
+    border-radius: 25px !important;
+} */
+
