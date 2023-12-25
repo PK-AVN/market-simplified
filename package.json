@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --port 3000",
-    "build": "Webpack .",
+    "build": "webpack --mode production",
     "test": "npm run test"
   },
   "author": "",
